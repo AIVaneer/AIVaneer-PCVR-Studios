@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Pythonista
+*.pyui
+
+# PCVR data files (generated at runtime, never commit)
+integration_keys.json
+automation_log.json
+automation_rules_custom.json
+multichain_config.json
+multichain_cache.json
+intelligence_cache.json
+dashboard_cache/
+omega_reports/
+scenario_results/
+atlas_graph.json
+atlas_economy.json
+pcvr_ledger.json
+pcvr_ledger.csv
+pcvr_wallets.json
+pcvr_whale_movements.json
+pcvr_alerts.json
+pcvr_market_data.json
+pcvr_validation_report.json
+pcvr_sync_log.json
+PCVR_*.json
+PCVR_*.csv
+store_catalog.json
+store_transactions.json
+whale_registry.json
+scenario_results.json
+graph_data.json
+
+# Secrets / API keys
+github_token.txt
+*.key
+*.pem
+secrets.json
+keys.json
+*_keys.json
+api_keys.json
+.env
+.env.*
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
